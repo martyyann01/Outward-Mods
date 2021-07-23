@@ -1,0 +1,7 @@
+C:\Users\Administrateur\Desktop\Outward Modding Repo\My-Outward-Mods\StackablePeacemaker\bin\Debug\StackablePeacemakerMod.dll
+C:\Users\Administrateur\Desktop\Outward Modding Repo\My-Outward-Mods\StackablePeacemaker\bin\Debug\StackablePeacemakerMod.pdb
+C:\Users\Administrateur\Desktop\Outward Modding Repo\My-Outward-Mods\StackablePeacemaker\obj\Debug\StackablePeacemaker.csprojAssemblyReference.cache
+C:\Users\Administrateur\Desktop\Outward Modding Repo\My-Outward-Mods\StackablePeacemaker\obj\Debug\StackablePeacemakerMod.Properties.Resources.resources
+C:\Users\Administrateur\Desktop\Outward Modding Repo\My-Outward-Mods\StackablePeacemaker\obj\Debug\StackablePeacemaker.csproj.GenerateResource.cache
+C:\Users\Administrateur\Desktop\Outward Modding Repo\My-Outward-Mods\StackablePeacemaker\obj\Debug\StackablePeacemakerMod.dll
+C:\Users\Administrateur\Desktop\Outward Modding Repo\My-Outward-Mods\StackablePeacemaker\obj\Debug\StackablePeacemakerMod.pdb
