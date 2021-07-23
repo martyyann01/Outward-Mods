@@ -9,7 +9,13 @@ using UnityEngine;
 
 #endregion
 
-//
+/* Comments
+ *
+ * Peacemaker Elixir (skill) ID : 8205320
+ * Peacemaker Elixir (item) ID  : 4300270
+ *
+ */
+
 namespace StackablePeacemakerMod
 {
     // Don't forget this attribute. The ID, NAME and VERSION are your const values below.
@@ -18,6 +24,7 @@ namespace StackablePeacemakerMod
     // You can delete this if you don't use ReSharper by JetBrains
     [SuppressMessage("ReSharper", "InconsistentNaming")]
 
+    //
     public class StackablePeacemaker : BaseUnityPlugin
     {
         private const string ID = "com.NathanielGarro.StackablePeacemaker";
