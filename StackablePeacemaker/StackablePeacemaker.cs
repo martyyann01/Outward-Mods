@@ -7,6 +7,7 @@ using System.Threading;
 using BepInEx;
 using BepInEx.Logging;
 using SideLoader;
+using SideLoader.Helpers;
 using UnityEngine;
 
 #endregion
@@ -37,8 +38,6 @@ namespace StackablePeacemakerMod
         // BepInEx has created a GameObject and added the class as a component to it.
         internal void Awake()
         {
-            Logger.Log(LogLevel.Message, "Loading " + NAME + " v" + VERSION + "...");
-
             SL.OnPacksLoaded += GetOriginalSkill;
             
             Logger.Log(LogLevel.Message, NAME + " version " + VERSION + " has successfully been loaded."); /* Prints to "BepInEx\LogOutput.log" */
@@ -51,7 +50,7 @@ namespace StackablePeacemakerMod
             try
             {
                 var PeacemakerElixir = ResourcesPrefabManager.Instance.GetItemPrefab("8205320") as PassiveSkill;
-                Logger.Log(LogLevel.Message, " Item ID 8205320 is : " + PeacemakerElixir.Name + " and is a skill : " + PeacemakerElixir.IsSkillItem);
+                Logger.Log(LogLevel.Message, " Item ID 8205320 is : " + PeacemakerElixir.Name + " and is stackable : " + PeacemakerElixir.IsStackable);
             }
             catch (Exception e)
             {
