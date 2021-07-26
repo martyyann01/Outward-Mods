@@ -1,14 +1,3 @@
-# RoadMap
-
-- [ ] Create a new LevelStatusEffect, give it no actual effects, its just a hidden tracker. Make it invisible and permanent (forget the name of the properties but something like ShowInHUD and LengthType)
-
-- [ ] Create a new LevelPassiveSkill which watches your new status, give it the same effects as Peacemaker passive (so that each level of the status adds to the effects)
-
-- [ ] Edit Peacemaker Elixir and change it to give you the new LevelStatusEffect AND the LevelPassiveSkill. The Passive will only be learned once. Probably also make it NOT give the normal peacemaker passive - make sure you set the EffectBehaviour to "Destroy" to do this.
-
-
-## ==================================
-
 # Sinai's additional advice :
 
 1. Hey, welcome. The only tricky part there would be keeping track of what "level" the peacemaker skill is at, if you want it to be unlimited then you'll need to save that data somehow. Sideloader offers the ability to easily add custom save data, you could use that or implement your own system if you want. As for actually making the change, I guess you would patch Item.Use and do your check there. Or actually maybe just patch LearnSkillEffect.ActivateLocally, normally it would check if you already have the skill, in that case you would increment your "peacemaker level". As for adding extra stats for each stack, it shouldnt be too hard to do, I think passives only register their stat level once when the passive is learned or loaded from a save.
