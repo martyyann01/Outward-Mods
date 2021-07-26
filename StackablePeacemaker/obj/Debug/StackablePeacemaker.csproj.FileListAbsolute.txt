@@ -7,3 +7,8 @@ C:\Users\Administrateur\Desktop\Outward Modding Repo\My-Outward-Mods\StackablePe
 C:\Users\Administrateur\Desktop\Outward Modding Repo\My-Outward-Mods\StackablePeacemaker\obj\Debug\StackablePeacemakerMod.pdb
 E:\Platforms\Steam\steamapps\common\Outward\BepInEx\plugins\StackablePeacemakerMod.dll
 E:\Platforms\Steam\steamapps\common\Outward\BepInEx\plugins\StackablePeacemakerMod.pdb
+F:\Development\Outward Modding Repos\My-Outward-Mods\StackablePeacemaker\obj\Debug\StackablePeacemaker.csprojAssemblyReference.cache
+F:\Development\Outward Modding Repos\My-Outward-Mods\StackablePeacemaker\obj\Debug\StackablePeacemakerMod.Properties.Resources.resources
+F:\Development\Outward Modding Repos\My-Outward-Mods\StackablePeacemaker\obj\Debug\StackablePeacemaker.csproj.GenerateResource.cache
+F:\Development\Outward Modding Repos\My-Outward-Mods\StackablePeacemaker\obj\Debug\StackablePeacemakerMod.dll
+F:\Development\Outward Modding Repos\My-Outward-Mods\StackablePeacemaker\obj\Debug\StackablePeacemakerMod.pdb
